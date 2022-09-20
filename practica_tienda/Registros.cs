@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace practica_tienda
 {
-    public partial class Hoodies : Form
+    public partial class Registros : Form
     {
-        public Hoodies()
+        public Registros()
         {
             InitializeComponent();
         }

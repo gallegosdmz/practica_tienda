@@ -31,9 +31,9 @@ namespace practica_tienda
 
             if (validacion == true)
             {
-                Menu miMenu = new Menu();
+                Registros registro = new Registros();
                 this.Hide();
-                miMenu.Show();
+                registro.Show();
             }
             else
             {

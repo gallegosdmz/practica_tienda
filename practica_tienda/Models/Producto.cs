@@ -11,14 +11,14 @@ namespace practica_tienda.Models
         public string Name { get; set; }
         public string Desc { get; set; }
         public int Price { get; set; }
-        public int Stock { get; set; }
+        public int Quantity { get; set; }
 
-        public Producto(string name, string desc, int price, int stock)
+        public Producto(string name, string desc, int price, int quantity)
         {
             this.Name = name;
             this.Desc = desc;
             this.Price = price;
-            this.Stock = stock;
+            this.Quantity = quantity;
         }
     }
 }
